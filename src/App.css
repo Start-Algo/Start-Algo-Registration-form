@@ -1,0 +1,315 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+  
+}
+
+body{
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  font-family: Poppins, sans-serif;
+  padding: 10px;
+  background: linear-gradient(115deg, rgb(86, 216, 228) 10%, rgb(159, 1, 234) 90%);
+}
+.container{
+  /* box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 10px; */
+  /* transition:all 2s; */
+
+  
+  max-width: 800px;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 0px 10px;
+  background: rgb(255, 255, 255);
+  padding: 25px 40px 10px;
+  box-sizing: border-box;
+} 
+
+.container .text{
+  text-align: center;
+  font-size: 41px;
+  font-weight: 600;
+  font-family: Poppins, sans-serif;
+  -webkit-text-fill-color: transparent;
+  background: -webkit-linear-gradient(right, rgb(86, 216, 228), rgb(159, 1, 234), rgb(86, 216, 228), rgb(159, 1, 234)) text;
+}
+.form-group .mb-3 input{
+  display: block;
+    width: 100%;
+    height: 100%;
+    border-top-width: initial;
+    border-right-width: initial;
+    border-left-width: initial;
+    border-top-color: initial;
+    border-right-color: initial;
+    border-left-color: initial;
+    font-size: 17px;
+    border-style: none none solid;
+    border-image: initial;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.12);
+    padding: 10px 15px;
+}
+ /* body{
+  background-color: #76e8db;
+
+} */
+ /* .container:hover{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  transition:all 1s;
+ } */
+ /* image{
+  opacity: 0.5;
+} */
+label{
+  font-weight: bold;
+  font-size: 20px;
+  display: block;
+}
+.form-control{
+  border-radius: 12px;
+  /* background-color: #76e8db; */
+  border: none;
+  border-bottom: 2px solid black;
+  padding: 10px 15px;
+  /* font-size: 20px; */
+  /* box-sizing: border-box; */
+  /* background-color: rgb(176, 231, 231); */
+
+}
+.form-control:focus{
+  /* border-color: #999; */
+  /* outline: none; */
+  /* background-color: rgb(176, 231, 231); */
+   outline: none;
+}
+
+/* .form-control:hover{
+  background-color: #76e8db;
+  transform: translateX(3px) translateY(3px);
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  transition:all 1s;
+  background-color: rgb(176, 231, 231);
+} */
+
+
+.btn{
+  align-self:center ;
+  font-size: 17px;
+  border-radius: 10px;
+  padding: 10px 20px;
+  text-transform: uppercase;
+  font-weight: bold;
+  background: linear-gradient(115deg, #56d8e4 10%, #9f01ea 90%);
+  border: none;
+  cursor: pointer;
+  transition: all 0.2s ease-in-out;
+}
+.btn:hover{
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 1);
+  transform: translateX(3px) translateY(3px);
+  /* transition:all .2s; */
+
+}
+
+.submit-btn {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.floating-whatsapp{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 999;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .container {
+    padding: 20px;
+  }
+
+  .container .text {
+    font-size: 30px;
+  }
+
+  .btn {
+    width: 100%;
+  }
+}
+
+@media (max-width: 480px) {
+  .container {
+    padding: 15px;
+  }
+
+  .container .text {
+    font-size: 25px;
+  }
+
+  .form-group .mb-3 input {
+    font-size: 15px;
+  }
+
+  label {
+    font-size: 18px;
+  }
+
+  .btn {
+    width: 100%;
+    padding: 10px;
+  }
+
+  .submit-btn {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+/* *{ */
+  /* box-sizing:border-box; */
+  /* font-family: sans-serif; */
+ /* outline:1px solid ;*/
+/* } */
+/* body{
+background: #ffffff;
+background: linear-gradient(to bottom, #ffffff 0%,#e1e8ed 100%);
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#e1e8ed',GradientType=0 );
+    height: 100%;
+        margin: 0;
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+
+} */
+
+.wrapper-1{
+  width:100%;
+  height:100vh;
+  display: flex;
+flex-direction: column;
+}
+.wrapper-2{
+  padding :60px;
+  text-align:center;
+  background: white;
+  border-radius: 50px;
+  box-shadow: 0 2px 30px rgba(0, 0, 0, 1);
+}
+h1{
+    font-family: 'Kaushan Script', cursive;
+  font-size:4em;
+  letter-spacing:3px;
+  color:#5892FF ;
+  margin:0;
+  margin-bottom:20px;
+}
+.wrapper-2 p{
+  margin:0;
+  font-size:1.3em;
+  color:black;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing:1px;
+  font-weight: bold;
+}
+/* .go-home{
+  color:#fff;
+  background:#5892FF;
+  border:none;
+  padding:10px 50px;
+  margin:30px 0;
+  border-radius:30px;
+  text-transform:capitalize;
+  box-shadow: 0 10px 16px 1px rgba(174, 199, 251, 1);
+} */
+/* .footer-like{
+  margin-top: auto; 
+  background:#D7E6FE;
+  padding:6px;
+  text-align:center;
+}
+.footer-like p{
+  margin:0;
+  padding:4px;
+  color:#5892FF;
+  font-family: 'Source Sans Pro', sans-serif;
+  letter-spacing:1px;
+} */
+.footer-like p a{
+  text-decoration:none;
+  color:#5892FF;
+  font-weight:600;
+}
+
+.whatsapp{
+  margin-top: 5%;
+  display: flex;
+}
+
+.wrapper-2 img{
+  height: 80px;
+}
+
+@media (min-width:360px){
+  h1{
+    font-size:4.5em;
+  }
+  .go-home{
+    margin-bottom:20px;
+  }
+}
+
+@media (min-width:600px){
+  .content{
+  max-width:1000px;
+  margin:0 auto;
+}
+  .wrapper-1{
+  height: initial;
+  max-width:620px;
+  margin:0 auto;
+  margin-top:50px;
+  box-shadow: 4px 8px 40px 8px rgba(88, 146, 255, 0.2);
+}
+  
+}
