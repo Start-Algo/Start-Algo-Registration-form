@@ -77,7 +77,7 @@ function Form() {
   return (
     <div className="container">
       <br />
-      <div className="text">ALGO TRADING WITH VIVEK</div>
+      <div className="text">ALGO TRADING REGISTRATION</div>
       <br />
       <form className="form-group" onSubmit={handleSubmit}>
         <div className="mb-3">
